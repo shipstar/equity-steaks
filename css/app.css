@@ -1,0 +1,213 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@font-face {
+  font-family: 'ChunkFive';
+  src: url(fonts/ChunkFive-webfont.eot);
+  src: url(fonts/ChunkFive-webfont.woff) format('woff'),
+       url(fonts/ChunkFive-webfont.ttf) format('truetype'),
+       url(fonts/ChunkFive-webfont.svg) format('svg');
+  font-weight: bold;
+  font-style: bold;
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body.signup .jumbotron .content {
+  margin-top: 15%;
+  text-align: center;
+}
+
+.jumbotron {
+  height: 500px;
+  background-color: black;
+  font-family: 'ChunkFive';
+}
+
+.jumbotron img {
+  margin-top: 100px;
+  margin-left: 15%;
+}
+
+.jumbotron h2 {
+  margin-top: 150px;
+  text-align: center;
+}
+
+.jumbotron .container {
+  height: 400px;
+  background-image: url(../img/fork.png);
+  background-position: 75% top;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'ChunkFive';
+}
+
+.container {
+  font-family: 'Open Sans', Arial, Helvetica;
+}
+
+.divider {
+  height: 46px;
+  margin-left: 50%;
+  background-image: url(../img/crosses-white.png);
+  background-repeat: no-repeat;
+  margin-top: 2em;
+  margin-bottom: 75px;
+}
+
+article {
+  background-color: #dfd9a9;
+  color: #333;
+  padding: 1em 1em 1em 5em;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+article h2 {
+  font-size: 24px;
+}
+
+article:before {
+  content: " ";
+  display: block;
+  width: 43px;
+  height: 81px;
+  background-image: url(../img/ribbon.png);
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+
+article:after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 18px;
+}
+
+article.cash:after {
+  top: 15px;
+  width: 26px;
+  height: 43px;
+  background-image: url(../img/moneybag.png);
+}
+
+article.both:after {
+  top: 18px;
+  width: 26px;
+  height: 31px;
+  background-image: url(../img/thumbsup.png);
+}
+
+article.coming-soon {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 2em;
+}
+
+article.coming-soon h2 {
+  text-align: center;
+}
+
+article.coming-soon:before {
+  display: none;
+}
+
+article.coming-soon form {
+  margin-top: 2em;
+  text-align: center;
+}
+
+article.coming-soon form input {
+  height: 30px;
+}
+
+.praise h2 {
+  margin-left: 15px;
+}
+
+blockquote {
+  border-left: none;
+}
+
+blockquote p {
+  background-color: #9f1d27;
+  padding: 1em;
+  position: relative;
+  margin-bottom: 1em;
+}
+
+blockquote p:after {
+  position: absolute;
+  content: " ";
+  display: block;
+  width: 21px;
+  height: 10px;
+  bottom: -10px;
+}
+
+blockquote .speaker {
+  margin-top: 1.5em;
+}
+
+blockquote .speaker h3 {
+  margin: 0;
+  line-height: 28px;
+}
+
+blockquote .speaker .title {
+  font-weight: bold;
+}
+
+blockquote:nth-child(even) p:after {
+  right: 60px;
+  background: transparent url(../img/quote_arrow_right.jpg) top left no-repeat;
+}
+
+blockquote:nth-child(even) .avatar, blockquote:nth-child(even) .speaker {
+  float: right;
+  margin-left: 20px;
+  text-align: right;
+}
+
+blockquote:nth-child(odd) p:after {
+  left: 60px;
+  background: transparent url(../img/quote_arrow_left.jpg) top left no-repeat;
+}
+
+blockquote:nth-child(odd) .avatar, blockquote:nth-child(odd) .speaker {
+  float: left;
+  margin-right: 20px;
+  text-align: left;
+}
+
+blockquote {
+  margin-bottom: 80px;
+}
+
+.cta {
+  text-align: center;
+}
+
+.cta a {
+  text-align: center;
+}
+
+footer {
+  margin-top: 2em;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+}
